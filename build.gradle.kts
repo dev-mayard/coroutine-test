@@ -24,7 +24,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     developmentOnly("org.springframework.boot:spring-boot-devtools")
-    runtimeOnly("dev.miku:r2dbc-mysql")
+    implementation("org.mariadb:r2dbc-mariadb:1.0.3")
+
     runtimeOnly("mysql:mysql-connector-java")
 
     implementation("io.kotest:kotest-runner-junit5-jvm:4.6.3")

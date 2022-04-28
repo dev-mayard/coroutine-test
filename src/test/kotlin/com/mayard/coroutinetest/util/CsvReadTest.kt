@@ -53,6 +53,7 @@ class CsvReadTest(
         }
     }
 
+    // Time: 4m 35.355437584s || Size: 497621
     init {
         "chunkSize 1000으로 나눠서 저장해보기" {
             logger.info(fileName)

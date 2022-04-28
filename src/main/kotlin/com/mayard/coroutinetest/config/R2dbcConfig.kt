@@ -37,7 +37,7 @@ class R2dbcConfig(
                 .option(ConnectionFactoryOptions.USER, r2dbcProperty.username)
                 .option(ConnectionFactoryOptions.PASSWORD, r2dbcProperty.password)
                 .option(ConnectionFactoryOptions.DATABASE, r2dbcProperty.db)
-                .option(ConnectionFactoryOptions.PROTOCOL, "mysql")
+                .option(ConnectionFactoryOptions.PROTOCOL, "mariadb")
                 .build()
         )
     }
